@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Foodie | Meat your Match</title>
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/main.css" rel="stylesheet">
+  	<link href="/css/bootstrap.css" rel="stylesheet">
+  	<link href="/css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logo.ico">
+  </head>
+  <body>
+    <header>
+			<div class="container">
+				<ul class="nav">
+				  <li><a class="back" href="/"><img src="/images/icons/left.png" width="40"></a></li>
+          <li><h1>Foodie</h1></li>
+					<li><a class="chat" href="/chat"><img src="/images/icons/chat.png" width="40"></a></li>
+			  </ul>
+			</div>
+	  </header>
+
+    <section class="text">
+      <div class="container">
+        <p>Who will you cook and eat with today?</p>
+      </div>
+    </section>
+
+    <!-- Matches -->
+    {{#each matches}}
+    <section class="match">
+      <div class="container">
+        <ul class="nav">
+          <li class="image"><img src="{{imageURL}}" height="100" width="100"></li>
+          <li class="info">
+            <h1>{{name}}</h1>
+            <h2>{{percent}}% Match Rating</h2>
+            <p>{{description}}</p>
+          </li>
+          <li class="tip">
+            <p>{{distance}}m<p>
+            <a href="/chat"><img src="/images/icons/right.png" width="30"></a>
+          </li>
+        <ul>
+      </div>
+    </section>
+    {{/each}}
+
+
+  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Include all compiled plugins (blelow), or include individual files as needed -->
+  <script src="/js/bootstrap.js"></script>
+</html>
