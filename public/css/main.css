@@ -208,9 +208,8 @@ header h1 {
 }
 
 .food .container#list-item {
-  min-height: 400px;
-  max-height: 400px;
-  max-width: 600px;
+  height: 400px;
+  width: 600px;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
 }
 
@@ -223,13 +222,13 @@ header h1 {
 }
 
 .container#list-view .list-info h3 {
-  padding-right: 40px;
+  padding-right: 0px;
   font-size: 20px;
   color: #C8C8C8;
 }
 
 .container#list-view .list-info h2 {
-  padding-right: 40px;
+  padding-right: 0px;
   font-size: 36px;
   font-weight: bold;
   color: #EEEEEE;
@@ -248,6 +247,7 @@ header h1 {
   background-repeat: no-repeat;
   background-position: center;
   border-bottom: #D8D8D8 3px solid;
+  width: 600px;
 }
 
 .food#Sushi {
@@ -255,7 +255,7 @@ header h1 {
   background-repeat: no-repeat;
   background-position: center;
   border-bottom: #D8D8D8 3px solid;
-
+  width: 600px;
 }
 
 .food#Tacos {
@@ -263,4 +263,5 @@ header h1 {
   background-repeat: no-repeat;
   background-position: center;
   border-bottom: #D8D8D8 3px solid;
+  width: 600px;
 }
