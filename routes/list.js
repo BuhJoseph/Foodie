@@ -2,19 +2,8 @@
  * GET home page.
  */
 
+var food = require("../food.json");
+
 exports.view = function(req, res){
-  res.render('list', {"foods": [
-    {
-      "name": "Burger",
-      "cuisine-type": "American"
-    },
-    {
-      "name": "Sushi",
-      "cuisine-type": "Japanese"
-    },
-    {
-      "name": "Tacos",
-      "cuisine-type": "Mexican"
-    }
-  ]});
+  res.render('list', food);
 };
