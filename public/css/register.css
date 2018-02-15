@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: ;
+	color: ;
+	font-family: Helvetica;
+	font-size: ;
+	font-weight: ;
+	text-redering: optimizeLegibility;
+}
+
+/* HEADER */
+
+.container {
+	height: 100vh;
+}
+
+.login-container {
+	max-width: 414px;
+	height: 100%;
+	margin: auto;
+}
+
+.login-container h3{
+	position: absolute;
+	left: 30;
+	top: 20;
+	font-size: 0.85em;
+	font-weight: 400;
+}
+
+.login-container a {
+	text-decoration: none;
+	color: #7D7D7D;
+}
+
+.logo {
+	max-width: 154px;
+	margin: auto;
+	padding-top: 141px;
+}
+
+.logo img {
+	width: 154px;
+}
+
+.question {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.question p {
+	color: #929292;
+	font-weight: 100;
+}
+
+.question h2 {
+	margin-top: 13px;
+	color: #484848;
+}
+
+/* FORM */
+.form-input {
+	width: 80%;
+	margin: auto;
+}
+
+.form-input input[type="text"],
+.form-input input[type="password"] {
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+	border: none;
+	font-size: 1.8em;
+	font-weight: 100;
+	color: #4D4D4D;
+	background: transparent;
+	border-bottom: solid 1px #979797;
+	outline: none;
+}	
+
+::placeholder {
+	color: #ABABAB;
+}
+
+.next {
+	width: 74px;
+	margin: auto;
+	text-align: center;
+	border-radius: 50%;
+	height: 74px;
+	font-size: 1.1em;
+	font-weight: 100;
+	background-color: #E0E0E0;
+	border: none;
+	outline: none;
+	margin-top: 30px;
+}
+
+.next p {
+	padding-top: 25px;
+	color: #4D4D4D;
+}
+
+/** IMAGES OF FOOD **/
+
+.img1 img {
+	width: 300px;
+	position: absolute;
+	left: -150;
+	top: 440;
+}
+
+.img3 img {
+	position: absolute;
+	width: 89;
+	left: 260;
+	top: 20;
+}
+
+@media only screen and (min-width: 500px) {
+	.img1 img {
+		width: 330px;
+		position: absolute;
+		left: 100;
+		top: 350;
+	}
+
+	.img3 img {
+		position: absolute;
+		width: 100;
+		left: 930;
+		top: 140;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
