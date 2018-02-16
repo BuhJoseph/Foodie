@@ -1,16 +1,64 @@
-{
-  "foods": [
-    {
-      "name": "Burger",
-      "cuisine-type": "American"
-    },
-    {
-      "name": "Sushi",
-      "cuisine-type": "Japanese"
-    },
-    {
-      "name": "Tacos",
-      "cuisine-type": "Mexican"
-    }
-  ]
-}
+
+[
+  {
+    "name": "Burger",
+    "ethnicity": "American",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  },
+  {
+    "name": "Sushi",
+    "ethnicity": "Japanese",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  },
+  {
+    "name": "Tacos",
+    "ethnicity": "Mexican",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  },
+  {
+    "name": "Ramen",
+    "ethnicity": "Japanese",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  },
+  {
+    "name": "OrangeChicken",
+    "ethnicity": "Chinese",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  },
+  {
+    "name": "Tamales",
+    "ethnicity": "Mexican",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  },
+  {
+    "name": "LomoSaltado",
+    "ethnicity": "Peruvian",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  },
+  {
+    "name": "LambTikkaMasala",
+    "ethnicity": "Indian",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  },
+  {
+    "name": "Bibimbap",
+    "ethnicity": "Korean",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  },
+  {
+    "name": "Steak",
+    "ethnicity": "American",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  }
+
+]

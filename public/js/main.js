@@ -12,16 +12,4 @@ function initializePage() {
 	console.log("Javascript connected!");
 
 	// name listener
-	$(".food#preview left").click(swipeLeft);
-  $(".food#preview right").click(swipeRight);
-  $(".food#preview dislike").click(swipeLeft);
-  $(".food#preview like").click(swipeRight);
-}
-
-function swipeLeft(e) {
-  e.preventDefault();
-}
-
-function swipeRight(e) {
-  e.preventDefault();
 }
