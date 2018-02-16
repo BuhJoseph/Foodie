@@ -19,6 +19,7 @@ var login1 = require('./routes/login1');
 var register1 = require('./routes/register1');
 var register2 = require('./routes/register2');
 var register3 = require('./routes/register3');
+var food = require('./routes/food');
 
 var app = express();
 
@@ -53,6 +54,7 @@ app.get('/login1', login1.view);
 app.get('/register1', register1.view);
 app.get('/register2', register2.view);
 app.get('/register3', register3.view);
+app.get('/food/:id', food.foodInfo);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

@@ -1,0 +1,79 @@
+.Burger {
+  background: url('../images/food/burger.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
+
+.Sushi {
+  background: url('../images/food/sushi.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
+
+.Tacos {
+  background: url('../images/food/tacos.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
+
+.Ramen {
+  background: url('../images/food/ramen.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
+
+.OrangeChicken {
+  background: url('../images/food/orangechicken.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
+
+.Tamales {
+  background: url('../images/food/tamales.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
+
+.LomoSaltado {
+  background: url('../images/food/lomosaltado.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
+
+.LambTikkaMasala {
+  background: url('../images/food/lambtikkamasala.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
+
+.Bibimbap {
+  background: url('../images/food/bibimbap.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
+
+.Steak {
+  background: url('../images/food/steak.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: #D8D8D8 3px solid;
+  height: 400px;
+}
