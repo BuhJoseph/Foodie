@@ -4,7 +4,10 @@
     <title>Foodie | Meat your Match</title>
     <meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
     <link href="/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
   	<link href="/css/bootstrap.css" rel="stylesheet">
   	<link href="/css/bootstrap-theme.css" rel="stylesheet">
     <link rel="shortcut icon" href="./images/icons/chef.png">
@@ -15,12 +18,59 @@
 			<div class="container">
 				<ul class="nav">
 				  <li><a class="profile" href="/profile"><img src="/images/icons/avatar.png" width="40"></a></li>
-          <li><a class="home" href="/"><h1>Foodie</h1></a></li>
+          <li><a class="home" href="/"><img src="images/logo/FOODIE_TITLE.png" class="logo"></a></li>
 					<li><a class="chat" href="/chat"><img src="/images/icons/chat.png" width="40"></a></li>
 			  </ul>
 			</div>
 	  </header>
-    <p>Customize profile - Work in Progress</p>
+    
+    <div class="profile-pic">
+      <div class="avatar">
+        <img src="images/icons/whiteAvatar.png">
+      </div>
+    </div>
+
+    <div class="bio">
+      <h3 class="name">Name of Student</h3>
+      <p class="description">Hiii! I love eating kbbq and buying boba. In my free time, I love to cook meal prep meals and Japanese food. </p>
+    </div>
+
+    <div class="options">
+      <!-- Change Preferences -->
+      <a href="">
+        <div class="option-item">
+          <p>Change Preferences</p>
+          <img src="images/icons/profile-right.png" class="right">
+        </div>
+      </a>
+      <!-- View and Edit Liked Food -->
+      <a href="">
+        <div class="option-item">
+          <p>View and Edit Liked Food</p>
+          <img src="images/icons/profile-right.png" class="right">
+        </div>
+      </a>
+      <!-- Reset -->
+      <a href="/reset">
+        <div class="option-item">
+          <p>Reset</p>
+          <img src="images/icons/profile-right.png" class="right">
+        </div>
+      </a>
+      <!-- Help -->
+      <a href="">
+      <div class="option-item">
+        <p>Help</p>
+        <img src="images/icons/profile-right.png" class="right">
+      </div>
+      </a>
+
+      <a href="/login1">
+        <div class="logout">
+          <p>Logout</p>
+        </div>
+      </a>
+    </div>
 
   </body>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
