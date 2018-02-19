@@ -3,38 +3,32 @@
 	<title>Foodie | Meat your Match</title>
   <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/css/main.css" rel="stylesheet">
+	<link href="/css/index.css" rel="stylesheet">
 	<link href="/css/food.css" rel="stylesheet">
-	<link href="/css/bootstrap.css" rel="stylesheet">
-	<link href="/css/bootstrap-theme.css" rel="stylesheet">
   <link rel="shortcut icon" href="./images/icons/chef.png">
 </head>
 <body>
+	<div class="container">
 	  <!-- jumbrotron -->
-	  <header>
-			<div class="container">
-				<ul class="nav">
-				  <li><a class="profile" href="/profile"><img src="/images/icons/avatar.png" width="40"></a></li>
-          <li><a class="home" href="/login1"><h1>Foodie</h1></a></li>
-					<li><a class="chat" href="/chat"><img src="/images/icons/chat.png" width="40"></a></li>
-			  </ul>
+	  <header class="top">
+			<a href="/profile"> <img src="images/icons/avatar.png" id="avatar"> </a>
+			<div class="logo-container">
+				<a href="/login1"><img src="images/logo/FOODIE_TITLE.png"></a>
 			</div>
+			<a href="/chat"><img src="images/icons/chat.png" id="chat"></a>
 	  </header>
 
 	  <!-- Mode Selector -->
 	  <section class="mode-selector">
-			<div class="container">
-		    <ul class="nav">
-			    <li class="swipe"><a class="selected" href="/">Swipe</a></li>
-			    <li class="list"><a href="/list">List</a></li>
-		    </ul>
-		  </div>
+		  <ul class="nav">
+			  <li class="swipe"><a class="selected" href="/">Swipe</a></li>
+			  <li class="list"><a href="/list">List</a></li>
+		  </ul>
 	  </section>
 
 		<!-- Food Preview -->
 		<div class="swipe-area">
 	  <section class="food-image">
-			<div class="container">
 			  <ul class="nav" id="swipe">
 			    <li class="left"><a href="#"><img src="/images/icons/left.png" width="50"></a></li>
 			    <li class="right"><a href="#"><img src="/images/icons/right.png" width="50"></a></li>
@@ -43,13 +37,11 @@
 		  	  <li class="dislike"><a href="#"><img src="/images/icons/dislike.png" width="100"></a></li>
 		  	  <li class="like"><a href="#"><img src="/images/icons/like.png" width="100"></a></li>
 		    </ul>
-		  </div>
 	  </section>
 	  </div>
 
     <!-- Food Description -->
 	  <section class="food-description">
-			<div class="container">
 				<h3>Type of Cuisine</h3>
 			  <h2>Name of Food</h2>
 	      <p>Description of Food</p>
@@ -58,17 +50,14 @@
 			    <li><img src="/images/icons/chef.png" width="40"><h6>Beginner</h6></li>
 				  <li><img src="/images/icons/cart.svg" width="40"><h6>$8-$10</h6></li>
 		    </ul>
-		  </div>
 	  </section>
 
 		<!-- See Matches -->
 		<section class="see-matches">
-			<div class="container">
 			  <p><span class="like-counter">0</span> Foods Liked<br />Like for better accuracy</p>
 			  <a href="/match"><button class="button1">See Matches</button></a>
-		  </div>
 		</section>
-
+  </div>
 </body>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

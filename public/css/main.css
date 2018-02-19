@@ -15,8 +15,8 @@ ul.nav li {
 }
 
 .container {
-  width: 100%;
-  overflow: hidden;
+  max-width: 414px;
+  margin: auto;
 }
 
 .button1 {
@@ -31,22 +31,44 @@ ul.nav li {
   border-radius: 15px;
 }
 
-/* jumbotron */
-
-header {
-  min-height:70px;
-  border-bottom:#D8D8D8 3px solid;
+/* NAV BAR */
+.top {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 14px;
+	border-bottom: solid 0.5px;
 }
 
-header h1 {
-  padding-left: 50px;
-  padding-right: 50px;
+#avatar {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+}
+
+.logo-container {
+	margin: auto;
+}
+
+.logo-container img {
+	width: 100px;
+	margin: auto;
+}
+
+#chat {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
 }
 
 /* Mode Selector */
 
 .mode-selector {
-  margin: 0 0 0 0;
+  margin: auto;
 }
 
 .mode-selector .selected {
@@ -61,6 +83,7 @@ header h1 {
 
 .mode-selector a {
   color: black;
+  text-decoration: none;
 }
 
 /* Food Preview */
