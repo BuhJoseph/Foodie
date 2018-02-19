@@ -4,47 +4,48 @@
     <title>Foodie | Meat your Match</title>
     <meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/main.css" rel="stylesheet">
-  	<link href="/css/bootstrap.css" rel="stylesheet">
-  	<link href="/css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/match.css">
     <link rel="shortcut icon" href="./images/icons/chef.png">
   </head>
   <body>
-    <header>
-			<div class="container">
-				<ul class="nav">
-				  <li><a class="profile" href="/profile"><img src="/images/icons/avatar.png" width="40"></a></li>
-          <li><a class="home" href="/"><h1>Foodie</h1></a></li>
-					<li><a class="chat" href="/chat"><img src="/images/icons/chat.png" width="40"></a></li>
-			  </ul>
-			</div>
-	  </header>
+    <div class="container">
 
-    <section class="text">
-      <div class="container">
-        <p>Who will you cook and eat with today?</p>
-      </div>
-    </section>
+      <header class="top">
+        <a href="/profile"> <img src="images/icons/avatar.png" id="avatar"> </a>
+        <div class="logo-container">
+          <img src="images/logo/FOODIE_TITLE.png">
+        </div>
+        <a href="images/"><img src="images/icons/chat.png" id="chat"></a>
+      </header>
 
-    <!-- Matches -->
-    {{#each matches}}
-    <section class="match">
-      <div class="container">
-        <ul class="nav">
-          <li class="image"><img src="{{imageURL}}" height="100" width="100"></li>
-          <li class="info">
-            <h1>{{name}}</h1>
-            <h2>{{percent}}% Match Rating</h2>
-            <p>{{description}}</p>
-          </li>
-          <li class="tip">
-            <p>{{distance}}m<p>
-            <a href="/chat"><img src="/images/icons/right.png" width="30"></a>
-          </li>
-        <ul>
+      <div class="main">
+        <h3 id="test">Who will you match with today?</h3>
+        <!-- Matches -->
+        {{#each matches}}
+        <a href="">
+          <div class="match-container">
+            <div class="cover-photo" style="background-image:url({{backgroundURL}});"></div>
+            <div class="profile-img" style="background-image:url({{imageURL}});">
+            </div>
+            <h2 class="name">{{name}}</h2>
+            <p class="description">{{description}}</p>
+            <div class="information">
+              <div class="rating">
+                <h3>{{percent}}%</h3>
+                <p>Match Rating</p>
+              </div>
+              <div class="miles">
+                <h3>{{distance}}</h3>
+                <p>Miles</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        {{/each}}
+
       </div>
-    </section>
-    {{/each}}
+
+    </div>
 
 
   </body>
@@ -53,4 +54,20 @@
   <!-- Include all compiled plugins (blelow), or include individual files as needed -->
   <script src="/js/bootstrap.js"></script>
   <script src="/js/main.js"></script>
+  <script language="javascript" type="text/javascript">
+          $(document).ready(function() {
+        initializePage();
+      })
+
+      function initializePage() {
+           $('.container').click(testJS);
+      }
+
+     function testJS() {
+        var b = document.getElementById('test').value,
+        url = '/matchprofile?test=' + encodeURIComponent(b);
+
+        document.location.href = url;
+      }
+  </script>
 </html>

@@ -21,6 +21,7 @@ var register2 = require('./routes/register2');
 var register3 = require('./routes/register3');
 var food = require('./routes/food');
 var reset = require('./routes/reset');
+var matchprofile = require('./routes/matchprofile');
 
 var app = express();
 
@@ -57,6 +58,7 @@ app.get('/register2', register2.view);
 app.get('/register3', register3.view);
 app.get('/food/:id', food.foodInfo);
 app.get('/reset', reset.view);
+app.get('/matchprofile', matchprofile.view); //NOTE: do '/matchprofile/:id' next time
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

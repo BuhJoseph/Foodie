@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Foodie | Meat your Match</title>
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/matchprofile.css">
+    <link rel="shortcut icon" href="./images/icons/chef.png">
+
+    <script type="text/javascript">
+    </script>
+  </head>
+  <body>
+    
+    <div class="container">
+      
+      <!-- Header Banner and Profile Pic -->
+      <div class="cover-photo" style="background-image:url(../images/matches/facebook.jpg);">
+        <div class="gradient">
+          <div class="back">
+            <img src="images/icons/left.svg">
+          </div>
+        </div>
+      </div>
+      <div class="profile-img" style="background-image:url(../images/matches/mark.jpg);"></div>
+      <h2 class="name">Mark Zuckerberg</h2>
+      <p class="description" id="here">Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.</p>
+
+      <!-- Matched Food Section -->
+      <div class="food">
+        <h2 class="matched-food">Your Matched Foods</h2>
+        <p class="seeall">See All ></p>
+        <p class="match-rating">90% | 8 Foods Matched</p>
+
+        <section class="section-meals">
+
+            <div class="meal-photo" style="background-image:url(../images/food/sushi.jpg);"></div>
+            <div class="meal-photo" style="background-image:url(../images/food/udon.jpg);"></div>
+            <div class="meal-photo" style="background-image:url(../images/food/donburi.jpeg);" id="last"></div>
+
+        </section>
+      </div>
+
+      <div class="provide">
+        <h2 class>What I can Provide</h2>
+        <p>2 Ramen Bowls</p>
+        <p>Stove</p>
+        <p>Chicken</p>
+        <p>A few billion dollars</p>
+      </div>
+
+      <div class="sticky">
+        <div class="cook">
+          <h2>I want to cook with this person!</h2>
+        </div>
+      </div>
+
+  </div>
+
+  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Include all compiled plugins (blelow), or include individual files as needed -->
+  <script src="/js/bootstrap.js"></script>
+  <script src="/js/main.js"></script>
+  <script type="text/javascript">
+    window.onload = function () {
+    var url = document.location.href,
+        params = url.split('?')[1].split('&'),
+        data = {}, tmp;
+    for (var i = 0, l = params.length; i < l; i++) {
+         tmp = params[i].split('=');
+         data[tmp[0]] = tmp[1];
+    }
+    document.getElementById('here').innerHTML = data.test;
+  }
+
+  </script>
+</html>

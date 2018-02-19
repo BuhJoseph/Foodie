@@ -14,22 +14,40 @@ html {
 }
 
 /* NAV BAR */
-
-.nav {
-	margin-top: 15px;
+.top {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 14px;
+	border-bottom: solid 0.5px;
 }
 
-.logo {
+#avatar {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+}
+
+.logo-container {
+	margin: auto;
+}
+
+.logo-container img {
 	width: 100px;
+	margin: auto;
 }
 
-.profile {
-	margin-right: 50px;
+#chat {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
 }
 
-.chat {
-	margin-left: 50px;
-}
+
 
 /* PROFILE PIC */
 .profile-pic {
