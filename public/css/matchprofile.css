@@ -156,6 +156,7 @@ html {
 	background-color: white;
 	border-top: solid 0.01em #979797;
 	max-width: 414px;
+	text-decoration: none;
 }
 
 .cook {
@@ -165,6 +166,7 @@ html {
 	background-color: #F26D6D;
 	height: 45px;
 	border-radius: 20px 20px 20px 20px;
+	text-decoration: none;
 }
 
 .cook h2 {
@@ -173,6 +175,7 @@ html {
 	font-size: 1em;
 	padding-top: 15px;
 	color: white;
+	text-decoration: none;
 }
 
 
