@@ -16,6 +16,7 @@ var match = require('./routes/match');
 var match2 = require('./routes/match2');
 var profile = require('./routes/profile');
 var chat = require('./routes/chat');
+var login = require('./routes/login');
 var login1 = require('./routes/login1');
 var register1 = require('./routes/register1');
 var register2 = require('./routes/register2');
@@ -23,6 +24,8 @@ var register3 = require('./routes/register3');
 var food = require('./routes/food');
 var reset = require('./routes/reset');
 var matchprofile = require('./routes/matchprofile');
+var likedfood = require('./routes/likedfood');
+var help = require('./routes/help');
 
 var app = express();
 
@@ -55,12 +58,17 @@ app.get('/match2', match2.view);
 app.get('/profile', profile.view);
 app.get('/chat', chat.view);
 app.get('/login1', login1.view);
+app.get('/login', login.view);
 app.get('/register1', register1.view);
 app.get('/register2', register2.view);
 app.get('/register3', register3.view);
 app.get('/food/:id', food.foodInfo);
 app.get('/reset', reset.view);
 app.get('/matchprofile', matchprofile.view); //NOTE: do '/matchprofile/:id' next time
+app.get('/likedfood', likedfood.view);
+app.get('/help', help.view);
+
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

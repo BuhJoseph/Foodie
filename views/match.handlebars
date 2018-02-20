@@ -19,10 +19,10 @@
       </header>
 
       <div class="main">
-        <h3 id="test">Who will you match with today?</h3>
+        <h3>Who will you match with today?</h3>
         <!-- Matches -->
         {{#each matches}}
-        <a href="">
+        <a href="/matchprofile">
           <div class="match-container">
             <div class="cover-photo" style="background-image:url({{backgroundURL}});"></div>
             <div class="profile-img" style="background-image:url({{imageURL}});">
@@ -54,20 +54,4 @@
   <!-- Include all compiled plugins (blelow), or include individual files as needed -->
   <script src="/js/bootstrap.js"></script>
   <script src="/js/main.js"></script>
-  <script language="javascript" type="text/javascript">
-          $(document).ready(function() {
-        initializePage();
-      })
-
-      function initializePage() {
-           $('.container').click(testJS);
-      }
-
-     function testJS() {
-        var b = document.getElementById('test').value,
-        url = '/matchprofile?test=' + encodeURIComponent(b);
-
-        document.location.href = url;
-      }
-  </script>
 </html>
