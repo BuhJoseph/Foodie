@@ -19,45 +19,47 @@
 	  </header>
 
 	  <!-- Mode Selector -->
-	  <section class="mode-selector">
-		  <ul class="nav">
-			  <li class="swipe"><a class="selected" href="/">Swipe</a></li>
-			  <li class="list"><a href="/list">List</a></li>
+	  <div class="mode-selector">
+			<ul>
+			  <li><a class="selected" href="/">Swipe</a></li>
+			  <li><a href="/list">List</a></li>
 		  </ul>
-	  </section>
+	  </div>
 
 		<!-- Food Preview -->
-		<div class="swipe-area">
-	  <section class="food-image">
-			  <ul class="nav" id="swipe">
-			    <li class="left"><a href="#"><img src="/images/icons/left.png" width="50"></a></li>
-			    <li class="right"><a href="#"><img src="/images/icons/right.png" width="50"></a></li>
+	  <div class="food-preview">
+			<div class="food-background" style="background: url('../images/food/burger.png')">
+			  <ul>
+			    <li><a href="#" class="dislike"><img src="/images/icons/dislike.png"></a></li>
+			    <li><a href="#" class="like"><img src="/images/icons/like.png"></a></li>
 		    </ul>
-		  	<ul class="nav" id="rate">
-		  	  <li class="dislike"><a href="#"><img src="/images/icons/dislike.png" width="100"></a></li>
-		  	  <li class="like"><a href="#"><img src="/images/icons/like.png" width="100"></a></li>
-		    </ul>
-	  </section>
+		  </div>
 	  </div>
 
     <!-- Food Description -->
-	  <section class="food-description">
+	  <div class="food-description">
 				<h3>Type of Cuisine</h3>
 			  <h2>Name of Food</h2>
 	      <p>Description of Food</p>
 			  <ul class="nav">
-			    <li><img src="/images/icons/timer.svg" width="40"><h6>20 Minutes</h6></li>
-			    <li><img src="/images/icons/chef.png" width="40"><h6>Beginner</h6></li>
-				  <li><img src="/images/icons/cart.svg" width="40"><h6>$8-$10</h6></li>
+			    <li><img src="/images/icons/timer.svg"><h6>20 Minutes</h6></li>
+			    <li><img src="/images/icons/chef.png"><h6>Beginner</h6></li>
+				  <li id="cart"><img src="/images/icons/cart.svg"><h6>$8-$10</h6></li>
 		    </ul>
-	  </section>
+	  </div>
 
 		<!-- See Matches -->
-		<section class="see-matches">
-			  <p><span class="like-counter">0</span> Foods Liked<br />Like for better accuracy</p>
-			  <a href="/match"><button class="button1">See Matches</button></a>
-		</section>
+		<div class="see-matches">
+			<div class="text">
+			  <p><span class="like-counter">0</span> Foods Liked </br> Like for better accuracy</p>
+        <a href="/match">
+				  <div class="button">See Matches</div>
+	      </a>
+			</div>
+		</div>
+
   </div>
+
 </body>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

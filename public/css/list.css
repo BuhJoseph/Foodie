@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: ;
+	color: #575757;
+	font-family: Helvetica;
+	font-size: ;
+	font-weight: ;
+	text-redering: optimizeLegibility;
+}
+
+.container {
+  max-width: 414px;
+  margin: auto;
+
+  /* Sticky */
+  overflow: scroll;
+}

@@ -1,6 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: ;
+	color: #575757;
+	font-family: Helvetica;
+	font-size: ;
+	font-weight: ;
+	text-redering: optimizeLegibility;
+}
+
 .container {
   max-width: 414px;
   margin: auto;
+
+  /* Sticky */
+  overflow: scroll;
+
 }
 
 /* NAV BAR */
@@ -35,4 +54,147 @@
 	height: 40px;
 	float: left;
 	margin-top: 10px;
+}
+
+/* mode-selector */
+
+.mode-selector {
+	width: 50%;
+	margin: auto;
+  padding-top: 10px;
+}
+
+.mode-selector ul {
+  text-align: center;
+}
+
+.mode-selector li {
+  font-size: 20px;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.mode-selector a {
+  text-decoration: none;
+}
+
+.selected {
+  font-weight: bold;
+  border-bottom: #AFC4C5 3px solid;
+}
+
+/* food preview */
+.food-preview {
+	width: 90%;
+	margin: auto;
+  padding-top: 10px;
+}
+
+.food-background {
+  height: 300px;
+  max-height: 300px;
+  background-position: center;
+}
+
+.food-preview ul {
+  text-align: center;
+}
+
+.food-preview li {
+  display: inline-block;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.food-preview img {
+  margin-top: 200px;
+  width: 75px;
+}
+
+/* Food Description */
+
+.food-description {
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+
+.food-description h3 {
+  font-size: 20px;
+}
+
+.food-description h2 {
+  font-size: 28px;
+}
+
+.food-description p {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.food-description h6 {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.food-description ul {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.food-description li {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+#cart {
+  padding-right: 0px;
+}
+
+.food-description img {
+  width: 40px;
+}
+
+/* See Matches */
+
+.see-matches {
+  width: 100%;
+  height: 70px;
+  background: #D8D8D8;
+
+  position: fixed;
+  bottom: 0;
+}
+
+.text {
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.see-matches p {
+  width: 50%;
+  padding-top: 8px;
+  font-size: 16px;
+}
+
+.see-matches a {
+  width: 50%;
+}
+
+.see-matches .button {
+  height: 50px;
+  padding-top: 12px;
+  background: #F26D6D;
+  border: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 20px;
+  float: right;
 }
