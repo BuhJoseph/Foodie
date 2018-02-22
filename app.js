@@ -62,7 +62,7 @@ app.get('/register2', register2.view);
 app.get('/register3', register3.view);
 app.get('/food/:id', food.foodInfo);
 app.get('/reset', reset.view);
-app.get('/matchprofile', matchprofile.view); //NOTE: do '/matchprofile/:id' next time
+app.get('/matchprofile/:name', matchprofile.view); //NOTE: do '/matchprofile/:id' next time
 app.get('/likedfood', likedfood.view);
 app.get('/help', help.view);
 
