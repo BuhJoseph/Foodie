@@ -17,7 +17,7 @@
     <header class="top">
 			<a href="/profile"> <img src="images/icons/avatar.png" id="avatar"> </a>
 			<div class="logo-container">
-				<a href="/"><img src="images/logo/FOODIE_TITLE.png"></a>
+				<a href="/list"><img src="images/logo/FOODIE_TITLE.png"></a>
 			</div>
 			<a href="/chat"><img src="images/icons/chat.png" id="chat"></a>
 	  </header>
@@ -35,7 +35,7 @@
 
     {{#each foods}}
       <div class="list-item" style>
-        <div class="food-background" style="background: url('../images/food/burger.png')">
+        <div class="food-background" style="background: url({{imageURL}})">
           <div class="gradient">
           <p>{{ethnicity}}</br><span>{{name}}</span></p>
           <ul>
