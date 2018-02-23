@@ -1,11 +1,69 @@
+/* sticky-buffers */
+
+.header-buffer {
+	padding-top: 100px;
+}
+
+.footer-buffer {
+	padding-bottom: 90px;
+}
+
+/* NAV BAR */
+.top {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 70px;
+	max-height: 70px;
+	margin: auto;
+	/* margin-top: 20px; */
+	padding-top: 10px;
+	/* padding-bottom: 20px; */
+	border-bottom: #B8B8B8 solid 0.5px;
+
+	/* sticky */
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #FFFFFF;
+}
+
+#avatar {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.logo-container {
+	margin: auto;
+}
+
+.logo-container img {
+	width: 100px;
+	margin: auto;
+}
+
+#chat {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
 .input {
     position: fixed;
     bottom: 0;
+    right: 0;
     left: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    width: 30%;
+    margin: auto;
     padding-bottom: 10px;
     background-color: white;
 }
@@ -26,7 +84,7 @@ input[type=textbox] {
 }
 
 .chatContainer {
-    
+
 }
 
 .chatText {
