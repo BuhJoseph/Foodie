@@ -158,7 +158,9 @@ html {
 
 }
 
-
+fb:login-button {
+	width: 100px;
+}
 
 
 
