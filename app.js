@@ -54,7 +54,7 @@ app.get('/', index.view);
 // app.get('/users', user.list);
 app.get('/list', list.view);
 app.get('/match', match.view);
-app.get('/match2', match2.view);
+app.get('/match2/:name', match2.view);
 app.get('/profile', profile.view);
 app.get('/chat', chat.view);
 app.get('/login1', login1.view);

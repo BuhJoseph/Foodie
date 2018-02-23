@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 function initializePage() {
 	console.log("Javascript connected!");
-	$('#chat').find('.send').click(sendText);
+	$('#chatsend').find('.send').click(sendText);
 }
 
 function sendText(e){

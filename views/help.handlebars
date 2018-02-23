@@ -18,6 +18,13 @@
         <a href="images/"><img src="images/icons/chat.png" id="chat"></a>
       </header>
 
+      {{#each questions}}
+      <div class="questionsandanswers">
+        <h3 class="question">{{question}}</h3>
+        <p class="answer">{{answer}}</p>
+      </div>
+      {{/each}}
+
 
     </div>
 
