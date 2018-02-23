@@ -13,16 +13,18 @@
       <header class="top">
         <a href="/profile"> <img src="images/icons/avatar.png" id="avatar"> </a>
         <div class="logo-container">
-          <img src="images/logo/FOODIE_TITLE.png">
+          <a href="/">
+            <img src="images/logo/FOODIE_TITLE.png">
+          </a>
         </div>
-        <a href="images/"><img src="images/icons/chat.png" id="chat"></a>
+        <a href="/match2"><img src="images/icons/chat.png" id="chat"></a>
       </header>
 
       <div class="main">
         <h3>Who will you match with today?</h3>
         <!-- Matches -->
         {{#each matches}}
-        <a href="/matchprofile">
+        <a href="/matchprofile/{{name}}">
           <div class="match-container">
             <div class="cover-photo" style="background-image:url({{backgroundURL}});"></div>
             <div class="profile-img" style="background-image:url({{imageURL}});">
