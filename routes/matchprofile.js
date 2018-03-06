@@ -2,13 +2,7 @@
  * GET match page.
  */
 
-var matches2 = require("../match2.json");
-
 exports.view = function(req, res){
-<<<<<<< HEAD
-  res.render('matchprofile', matches2);
-};
-=======
   var name = req.params.name; 
   var profile = "../images/matches/mark.jpg";
   var background = "../images/matches/facebook.jpg";
@@ -61,4 +55,3 @@ exports.view = function(req, res){
       "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook."
   });
 }
->>>>>>> 18ee741eedf8be6a1741535882533187b36fe418

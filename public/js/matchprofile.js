@@ -1,7 +1,3 @@
-
-var match2 = require("C:\Users\josep_000\Desktop\CSE170\Foodie\match2.json");
-
-
 $(document).ready(function() {
 	initializePage();
 })
@@ -11,22 +7,23 @@ function initializePage() {
 	$("a").click(setPerson);
 }
 
+
+
 function setPerson(e){
-
-  console.log(match2.matches2);
-  e.preventDefault();
-
+  var userdata = JSON.parse(data);
+  console.log(userdata[0]);
   var profile = {
-    "profileImg": "img",
-    "name": "name",
-    "rating": "rating",
-    "description": "description",
+    "profileImg": "asdf",
+    "name": "asdf",
+    "rating": "asdf",
+    "description": "asdf",
   }
 
-  var profilePic = document.getElementById("profile").style.backgroundImage;
-  profile.profileImg = profilePic.replace('url(','').replace(')','');
+  var picture = document.getElementById("profile").style.backgroundImage;
+  profile.profileImg = picture.replace('url','').replace(')','');
   profile.name = document.getElementById("name").textContent;
-  profile.rating = document.getElementById("rating").textContent;
+  profile.rating = document.getElementById("percent").textContent;
+  profile.description = document.getElementById("description").textContent;
 
-  match2.push(profile);
+  console.log(profile);
 }
