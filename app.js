@@ -26,6 +26,7 @@ var reset = require('./routes/reset');
 var matchprofile = require('./routes/matchprofile');
 var likedfood = require('./routes/likedfood');
 var help = require('./routes/help');
+var foodInfo = require('./routes/foodInfo');
 
 var app = express();
 
@@ -56,7 +57,7 @@ app.get('/list', list.view);
 app.get('/match', match.view);
 app.get('/match2/:name', match2.view);
 app.get('/profile', profile.view);
-app.get('/chat', chat.view);
+app.get('/chat/:name', chat.view);
 app.get('/login1', login1.view);
 app.get('/login', login.view);
 app.get('/register1', register1.view);
@@ -67,6 +68,7 @@ app.get('/reset', reset.view);
 app.get('/matchprofile/:name', matchprofile.view); //NOTE: do '/matchprofile/:id' next time
 app.get('/likedfood', likedfood.view);
 app.get('/help', help.view);
+app.get('/foodInfo/:name', foodInfo.view);
 
 /* Create endpoint */
 //app.post('/likeFood', profile.likeFood);

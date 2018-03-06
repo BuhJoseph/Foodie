@@ -5,8 +5,8 @@
     <meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/main.css" rel="stylesheet">
-    <link href="/css/list.css" rel="stylesheet">
     <link href="/css/food.css" rel="stylesheet">
+    <link href="/css/list.css" rel="stylesheet">
   	<link href="/css/bootstrap.css" rel="stylesheet">
   	<link href="/css/bootstrap-theme.css" rel="stylesheet">
     <link rel="shortcut icon" href="./images/icons/chef.png">
@@ -19,7 +19,7 @@
 			<div class="logo-container">
 				<a href="/list"><img src="images/logo/FOODIE_TITLE.png"></a>
 			</div>
-			<a href="/chat"><img src="images/icons/chat.png" id="chat"></a>
+			<a href="/match2/Mark%20Zuckerberg"><img src="images/icons/chat.png" id="chat"></a>
 	  </header>
 
     <!-- Mode Selector
@@ -35,31 +35,33 @@
 		<div class="header-buffer"></div>
 
     {{#each foods}}
-      <div class="list-item" style>
-        <div class="food-background" style="background: url({{imageURL}})">
-          <div class="gradient">
-          <p>{{ethnicity}}</br><span>{{name}}</span></p>
-          <ul>
-            <li class="dislike"><a><img src="/images/icons/dislike.png"></a></li>
-            <li class="like"><a><img src="/images/icons/like.png"></a></li>
-          </ul>
+     <a href="/foodInfo/{{name}}">
+        <div class="list-item" style>
+          <div class="food-background" style="background: url({{imageURL}})">
+            <div class="gradient">
+            <p>{{ethnicity}}</br><span>{{name}}</span></p>
+            <ul>
+              <li class="dislike"><a><img src="/images/icons/dislike.png"></a></li>
+              <li class="like"><a><img src="/images/icons/like.png"></a></li>
+            </ul>
+            </div>
           </div>
         </div>
-      </div>
+      </a>
     {{/each}}
 
     <!-- Adds space buffer between scrolling section and footer -->
     <div class="footer-buffer"></div>
 
     <!-- See Matches -->
-    <div class="see-matches">
-			<div class="text">
-			  <p><span class="like-counter">0</span> Foods Liked </br> Like for better accuracy</p>
+   <div class="see-matches">
+      <div class="text">
+        <p><span class="like-counter">0</span> Foods Liked </br> <span class="like-accuracy"> Like for better accuracy </span> </p>
         <a href="/match">
-				  <div class="button">See Matches</div>
-	      </a>
-			</div>
-		</div>
+          <div class="button">See Matches</div>
+        </a>
+      </div>
+    </div>
 
     </div>
   </body>
