@@ -1,0 +1,233 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: ;
+	color: #575757;
+	font-family: Helvetica;
+	font-size: ;
+	font-weight: ;
+	text-redering: optimizeLegibility;
+}
+
+.container {
+	max-width: 414px;
+	height: 100vh;
+	margin: auto;
+	overflow: scroll;
+}
+
+/* Banner and Profile Pic */
+
+.cover-photo {
+	width: 100%;
+	height: 300px; /* Note: this control how large the size of the image is in the screen */
+	background-size: cover; /* Note: Make sure this is always bigger than height, after a certain point it will start zooming in to the picture */
+	background-position: center;
+}
+
+.gradient {
+	height: 40px;
+	background: linear-gradient( #686868, transparent);
+
+}
+
+.back {
+	width: 90%;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.back img {
+	width: 20px;
+	color: white;
+}
+
+.profile-img {
+	width: 130px;
+	height: 130px;
+	margin: auto;
+	background-color: blue;
+	position: relative;
+	background-size: 140px 130px;
+	background-position: center;
+	bottom: 90px;
+	border-radius: 50%;
+}
+
+.ethnicity {
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.name {
+	width: 90%;
+	margin: auto;
+	font-weight: 800;
+	color: #434343;
+	font-size: 1.7em;
+}
+
+.description {
+	width: 90%;
+	margin: auto;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #686868;
+	padding-bottom: 30px;
+	border-bottom: solid 0.5px #979797;
+	margin-top: 10px;
+}
+
+.food {
+	width: 90%;
+	margin: auto;
+	position: relative;
+	bottom: 40px;
+	padding-bottom: 30px;
+	border-bottom: solid 0.5px #979797; 
+}
+
+.food h2 {
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
+.seeall {
+	float: right;
+	font-size: 0.8em;
+	position: relative;
+	bottom: 17px;
+}
+
+.match-rating {
+	margin-top: 15px;
+	font-weight: 300;
+	font-size: 0.8em;
+}
+
+/* MEALS SHOWCASE */
+.section-meals {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	overflow: scroll;
+}
+
+.meal-photo {
+	width: calc((100% / 3) - 5px);
+	height: 100px;
+	background-size: 200px;
+	background-position: center;
+	margin-right: 5px;
+}
+
+#last {
+	margin-right: 0px;
+}
+
+/* Availability */
+
+.provide {
+	width: 90%;
+	margin: auto;
+	position: relative;
+	bottom: 20px;
+	padding-bottom: 90px;
+}
+
+.provide h2 {
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
+.provide p {
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #686868;
+	padding-top: 10px;
+}
+
+.sticky {  
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+	border-top: solid 0.01em #979797;
+	max-width: 414px;
+	text-decoration: none;
+}
+
+.cook {
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	background-color: #F26D6D;
+	height: 45px;
+	border-radius: 20px 20px 20px 20px;
+	text-decoration: none;
+}
+
+.cook h2 {
+	font-weight: 300;
+	text-align: center;
+	font-size: 1em;
+	padding-top: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+
+/* Cooking INfo */
+.cookingInfo {
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  border-bottom: solid 0.5px #979797;
+}
+
+.cookingInfo ul {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cookingInfo li {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+#cart {
+  padding-right: 0px;
+}
+
+.cookingInfo img {
+  width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

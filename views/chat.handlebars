@@ -13,11 +13,12 @@
   <body style="padding-bottom: 50px;">
     <!-- jumbrotron -->
     <header class="top">
-			<a href="/profile"> <img src="images/icons/avatar.png" id="avatar"> </a>
+			<a href="/match2/{{name}}"> <img src="../images/icons/left-button.png" id="left"> </a>
 			<div class="logo-container">
-				<a href="/login1"><img src="images/logo/FOODIE_TITLE.png"></a>
+        <div class="profile-pic" style="background-image:url({{imageURL}});"></div>
+        <h4 class="name"> {{name}} </h4>
+
 			</div>
-			<a href="/chat"><img src="images/icons/chat.png" id="chat"></a>
 	  </header>
 
     <div id="chatContainer">
