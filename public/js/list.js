@@ -20,6 +20,7 @@ function initializePage() {
 
 /* Global variables */
 var likes;
+var likedFood = null;
 
 function like(e) {
 
@@ -30,6 +31,23 @@ function like(e) {
 	likes = parseInt($(".like-counter").text());
   $(".like-counter").text(++likes);
 	console.log("likes = " + likes);
+
+  var imageURL = $(this).closest(".food-background").css("background-image")
+	imageURL = imageURL.slice(26,imageURL.length-2);
+	imageURL = ".." + imageURL;
+	console.log(imageURL);
+
+  likedFood = {
+		"name" : "test",
+		"imageURL" : imageURL
+	};
+
+	// POST
+	$.post("likeFood", {likedFood: likedFood}, postCallback)
+
+	function postCallback(res) {
+		console.log("pushed " + res.name + " to profile");
+	};
 
   // hide
   $(this).closest(".list-item").hide();

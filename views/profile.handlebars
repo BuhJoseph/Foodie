@@ -16,12 +16,12 @@
     <header class="top">
         <a href="/profile"> <img src="images/icons/avatar.png" id="avatar"> </a>
         <div class="logo-container">
-          <a href="/"> <img src="images/logo/FOODIE_TITLE.png"></a> 
+          <a href="/"> <img src="images/logo/FOODIE_TITLE.png"></a>
         </div>
         <a href="/match2/Mark%20Zuckerberg"><img src="images/icons/chat.png" id="chat"></a>
     </header>
-    
-   
+
+
     <div class="profile-pic">
       <div class="avatar">
         <img src="images/icons/whiteAvatar.png">
@@ -50,6 +50,15 @@
         <img src="images/icons/profile-right.png" class="right">
       </div>
       </a>
+
+      <!-- Liked Foods  -->
+      <div class="liked-foods">
+        <ul>
+          {{#each likes}}
+            <li><img class="food-image" src="{{imageURL}}"></li>
+          {{/each}}
+        </ul>
+      </div>
 
       <a href="/login">
         <div class="logout">

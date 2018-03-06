@@ -112,7 +112,7 @@
   height: 270px;
   max-height: 270px;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 }
 
 .gradient {
