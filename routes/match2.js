@@ -14,7 +14,7 @@ exports.view = function(req, res){
   } else if (name == "Chloe Kim") {
     profile = "../images/matches/chloe.jpg";
     background = "../images/matches/pyeongchang.jpg";
-  } else if (name == "Pardeep Coleslaw") {
+  } else if (name == "Pradeep Coleslaw") {
     profile = "../images/matches/khosla.jpg";
     background = "../images/food/coleslaw.jpg";
   } else if (name == "Michelle Obama") {

@@ -170,11 +170,12 @@
 .see-matches {
   width: 100%;
   height: 70px;
-  background: #D8D8D8;
   position: fixed;
   bottom: 0;
 	left: 0;
 	right: 0;
+  border-top: solid 0.5px #D2D2D2;
+  background-color: white;
 }
 
 .text {
@@ -195,15 +196,38 @@
   width: 50%;
 }
 
+.see-matches span {
+	font-weight: bold;
+}
+
 .see-matches .button {
   height: 50px;
-  padding-top: 12px;
-  background: #F26D6D;
+  padding-top: 15px;
+  background-color: #FF4949;
   border: 0;
-  padding-left: 25px;
-  padding-right: 25px;
-  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 15px;
   color: #FFFFFF;
-  border-radius: 20px;
+  border-radius: 10px;
   float: right;
 }
+
+
+.text p {
+  font-size: 1.25em;
+  padding-top: 0px;
+}
+
+.text .like-accuracy{
+  font-size: 0.9em;
+  font-weight: 200;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+

@@ -13,14 +13,12 @@
   <body style="padding-bottom: 50px;">
     <!-- jumbrotron -->
     <header class="top">
-      <div class="back">
-        <a href="/match2"><img style="width: 50px; height: 50px;" src="images/icons/left.png"></a>
-      </div>
-      
-      <div class="logo-container">
-			  <a href="/"><img src="images/logo/FOODIE_TITLE.png"></a>
-      </div>
+			<a href="/match2/{{name}}"> <img src="../images/icons/left-button.png" id="left"> </a>
+			<div class="logo-container">
+        <div class="profile-pic" style="background-image:url({{imageURL}});"></div>
+        <h4 class="name"> {{name}} </h4>
 
+			</div>
 	  </header>
 
     <div id="chatContainer">
