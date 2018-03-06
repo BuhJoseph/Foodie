@@ -19,11 +19,17 @@ function sendText(e){
 
   var text = document.getElementById('chatbox').value;
   if(text !== ''){
+    var chatCont = document.createElement('div');
     var chat = document.createElement('div');
+    var blank = document.createElement('div');
     chat.innerHTML = text;
     chat.className = 'chatText';
+    chatCont.appendChild(chat);
+    chatCont.className = 'textContainer';
+    blank.className = 'blank';
     var container = document.getElementById('chatContainer');
-    container.appendChild(chat);
+    container.appendChild(chatCont);
+    container.appendChild(blank);
     document.getElementById('chatbox').value = '';
   }
 }
