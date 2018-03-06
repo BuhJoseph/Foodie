@@ -143,27 +143,17 @@ html {
 	width: 100%;
 }
 
+.liked-foods ul {
+	margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  width: 900px;
+  overflow-x: auto;
+  background-color: #ddd;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.liked-foods li {
+  display: inline;
+  width: 150px;
+  height: 150px;
+}

@@ -30,15 +30,15 @@
 		  </ul>
 	  </div>
     -->
-    
+
     <!-- Adds space buffer between header and scrolling section -->
 		<div class="header-buffer"></div>
 
     {{#each foods}}
       <div class="list-item" style>
-        <div class="food-background" style="background: url({{imageURL}})">
+        <div class="food-background" style="background-image: url({{imageURL}})">
           <div class="gradient">
-          <p>{{ethnicity}}</br><span>{{name}}</span></p>
+          <p>{{ethnicity}}</br><span id="name">{{name}}</span></p>
           <ul>
             <li class="dislike"><a><img src="/images/icons/dislike.png"></a></li>
             <li class="like"><a><img src="/images/icons/like.png"></a></li>

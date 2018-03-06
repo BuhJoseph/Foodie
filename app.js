@@ -67,9 +67,7 @@ app.get('/reset', reset.view);
 app.get('/matchprofile/:name', matchprofile.view); //NOTE: do '/matchprofile/:id' next time
 app.get('/likedfood', likedfood.view);
 app.get('/help', help.view);
-
-/* Create endpoint */
-//app.post('/likeFood', profile.likeFood);
+app.post('/likeFood', profile.likeFood);
 
 
 http.createServer(app).listen(app.get('port'), function(){

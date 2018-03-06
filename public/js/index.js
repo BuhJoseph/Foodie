@@ -1,5 +1,5 @@
 'use strict';
-//var foods = require('../../food.json');
+var food = null;
 
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
@@ -11,8 +11,10 @@ $(document).ready(function() {
  */
 function initializePage() {
 
+	updatePage;
+
 	// name listener
-	$(".food-background a").click(swipe);
+	$(".food-background a").click(updatePage);
   $(".food-background .like").click(like);
 }
 
@@ -21,22 +23,26 @@ function initializePage() {
 var likes = 0;
 var index = 1;
 
-var previousFood = null;
+//var likedFood = null;
 
-
-function swipe(e) {
+function updatePage(e) {
 
 	// Prevent following the link
   e.preventDefault();
-  console.log("swipe");
+  console.log("update page");
 
-	previousFood = changeFood;
+  /*
+	likedFood = {
+    "name": "Sushi",
+    "imageURL": "../images/food/sushi.jpg",
+    "ethnicity": "Japanese",
+    "description": "<p>Description of Food<p>",
+    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+  };
+	*/
+
 	console.log("Change to food " + index);
 	$.get("/food/" + index, changeFood);
-
-	// POST
-	//$.post("likeFood", {}, postCallback)
-
 
 	// change the food on display
 	index++;
@@ -67,4 +73,10 @@ function changeFood(result) {
   $(".food-background").attr("style","background-image: url(" + result["imageURL"] + ")");
 	$(".food-description").html(descriptionHTML);
 
+	// POST
+	$.post("likeFood", {likedFood: result}, postCallback)
+
+	function postCallback(res) {
+		console.log("pushed " + res.name + " to profile");
+	}
 }
