@@ -5,58 +5,63 @@
     <meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/list.css" rel="stylesheet">
     <link href="/css/food.css" rel="stylesheet">
   	<link href="/css/bootstrap.css" rel="stylesheet">
   	<link href="/css/bootstrap-theme.css" rel="stylesheet">
     <link rel="shortcut icon" href="./images/icons/chef.png">
   </head>
   <body>
+    <div class="container">
     <!-- jumbrotron -->
-    <header>
-			<div class="container">
-				<ul class="nav">
-				  <li><a class="profile" href="/profile"><img src="/images/icons/avatar.png" width="40"></a></li>
-          <li><a class="home" href="/"><h1>Foodie</h1></a></li>
-					<li><a class="chat" href="/chat"><img src="/images/icons/chat.png" width="40"></a></li>
-			  </ul>
+    <header class="top">
+			<a href="/profile"> <img src="images/icons/avatar.png" id="avatar"> </a>
+			<div class="logo-container">
+				<a href="/list"><img src="images/logo/FOODIE_TITLE.png"></a>
 			</div>
+			<a href="/chat"><img src="images/icons/chat.png" id="chat"></a>
 	  </header>
 
-    <!-- Mode Selector -->
-	  <section class="mode-selector">
-			<div class="container">
-		    <ul class="nav">
-			    <li class="swipe"><a href="/">Swipe</a></li>
-			    <li class="list"><a class="selected" href="/list">List</a></li>
-		    </ul>
-		  </div>
-	  </section>
+    <!-- Mode Selector
+    <div class="mode-selector">
+			<ul>
+			  <li><a href="/">Swipe</a></li>
+			  <li><a class="selected" href="/list">List</a></li>
+		  </ul>
+	  </div>
+    -->
+    
+    <!-- Adds space buffer between header and scrolling section -->
+		<div class="header-buffer"></div>
 
-    <div class="container" id="list-view">
     {{#each foods}}
-      <section class="{{name}}">
-        <div class="container" id="list-item">
-          <ul class="nav" id="list-info">
-            <li class="list-info">
-              <h3>{{ethnicity}}</h3>
-  			      <h2>{{name}}</h2>
-            </li>
-            <li class="dislike"><a><img src="/images/icons/dislike.png" width="50"></a></li>
-            <li class="like"><a><img src="/images/icons/like.png" width="50"></a></li>
+      <div class="list-item" style>
+        <div class="food-background" style="background: url({{imageURL}})">
+          <div class="gradient">
+          <p>{{ethnicity}}</br><span>{{name}}</span></p>
+          <ul>
+            <li class="dislike"><a><img src="/images/icons/dislike.png"></a></li>
+            <li class="like"><a><img src="/images/icons/like.png"></a></li>
+          </ul>
           </div>
-      </section>
+        </div>
+      </div>
     {{/each}}
-    </div>
+
+    <!-- Adds space buffer between scrolling section and footer -->
+    <div class="footer-buffer"></div>
 
     <!-- See Matches -->
-		<section class="see-matches">
-			<div class="container">
-			  <p><span class="like-counter">0</span> Foods Liked<br />Like for better accuracy</p>
-			  <a href="/match"><button class="button1">See Matches</button></a>
-		  </div>
-		</section>
+    <div class="see-matches">
+			<div class="text">
+			  <p><span class="like-counter">0</span> Foods Liked </br> Like for better accuracy</p>
+        <a href="/match">
+				  <div class="button">See Matches</div>
+	      </a>
+			</div>
+		</div>
 
-
+    </div>
   </body>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://code.jquery.com/jquery.js"></script>

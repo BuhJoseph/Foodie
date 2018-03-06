@@ -21,7 +21,7 @@ exports.view = function(req, res){
     profile = "../images/matches/chloe.jpg";
     background = "../images/matches/pyeongchang.jpg";
     description = "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.";
-  } else if (name == "Pardeep Coleslaw") {
+  } else if (name == "Pradeep Coleslaw") {
     profile = "../images/matches/khosla.jpg";
     background = "../images/food/coleslaw.jpg";
     description = "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.";

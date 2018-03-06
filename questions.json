@@ -1,0 +1,35 @@
+{
+    "questions": [
+    {
+      "question": "What is Foodie?",
+      "answer": "Foodie is a social food app that allows you to find and match other people that have a similar tastes as you. You can chat and meet up in person to cook your favorite dish!"
+    },
+    {
+      "question": "How do I use it?",
+      "answer": "After logging in, you can look through different food and press the green heart button if you like the food and the red x button if you don't like it."
+    },
+    {
+      "question": "What is the difference between swipe and list in the homepage?",
+      "answer": "These are two different modes of viewing food. If you want a tinder style viewing option where you just want to see each food one by one and with more detail, then choose swipe. If you want to scroll through multiple options at one time, then choose list."
+    },
+    {
+      "question": "Is there a way to keep track on how many I've liked?",
+      "answer": "Yes! There's a counter in the bottom left hand corner of the homepage that tracks how many you've liked so far"
+    },
+    {
+      "question": "What do I do after I'm satisfied with the amount of food I liked?",
+      "answer": "Click See Matches. See Matches will take you to a page of people that has a similar taste as yours."
+    },
+    {
+      "question": "What does the percentage mean?",
+      "answer": "The higher the percentage means the more common liked foods you both have."
+    },
+    {
+      "question": "What do I do after I choose?",
+      "answer": "Look through the person's profile and click 'I want to cook with this person'. It will take you to the chat page where it shows pending and accepted requests. The person should have immediately accepted your request and you can start chatting with him!"
+    },
+    {
+      "question": "What do I chat about?",
+      "answer": "Introduce yourself then you can talk about cooking location, what things to bring, and what meal to cook."
+    }
+  ]}

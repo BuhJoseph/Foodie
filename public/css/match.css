@@ -175,6 +175,19 @@ a:hover {
 }
 
 
+/*HELP PAGE*/
+.questionsandanswers{
+	width: 90%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.questionsandanswers p{
+	padding-top: 7px;
+	color: #686868;
+}
+
+
 
 
 

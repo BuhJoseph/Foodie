@@ -14,36 +14,44 @@
     <div class="containter">
         <!-- jumbrotron -->
       <header class="top">
-        <a class="back" href="/match"><img src="/images/icons/left.png" width="40">
-          <div class="logo-container">
-            <a href="/"> <img src="images/logo/FOODIE_TITLE.png"></a> 
-          </div>
+        <a href="/profile"> <img src="../images/icons/avatar.png" id="avatar"> </a>
+        <div class="logo-container">
+          <a href="/">
+            <img src="../images/logo/FOODIE_TITLE.png">
+          </a>
+        </div>
+        <a href="/match2"><img src="../images/icons/chat.png" id="chat"></a>
       </header>
 
       <div class="menu">
         <div class="accepted">
           Accepted
         </div>
+        <!-- We will have to comment this out for now
         <div class="pending">
           Pending
         </div>
+      -->
       </div>
 
-      <div id="matches">
-        <div class="match">
-          <div class="profile-img">
-            <img src="../images/matches/mark.jpg">
-          </div>
-          <div class="details">
-            <label style="font-size: 20px; margin-top: -5px;">Mark Zuckerberg</label>
-            <p style="font-style: italic;">90% Match Rating</p>
-            <p >Description of person. He likes to eat sushi and chicken.</p>
-          </div>
-          <div style="padding-top: 40px; padding-left: 20px;">
-            <img style="height: 30px; width: 20px;" src="../images/icons/profile-right.png">
+      <a href="/chat">
+        <div id="matches">
+          <div class="match">
+            <div class="profile-img">
+              <img src="{{imageURL}}">
+            </div>
+            <div class="details">
+              <label style="font-size: 20px; margin-top: -5px;">{{name}}</label>
+              <p style="font-style: italic;">90% Match Rating</p>
+              <p >Description of person. He likes to eat sushi and chicken.</p>
+            </div>
+            <div style="padding-top: 40px; padding-left: 20px;">
+              <img style="height: 30px; width: 20px;" src="../images/icons/profile-right.png">
+            </div>
           </div>
         </div>
-      </div>
+      </a>
+
     </div>
   </body>
 

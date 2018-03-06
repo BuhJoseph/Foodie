@@ -4,7 +4,11 @@ $(document).ready(function() {
 
 function initializePage() {
 	console.log("Javascript connected!");
-	$('#chat').find('.send').click(sendText);
+  $('#chatsend').find('.send').click(sendText);
+  $("#chatbox").on('keydown', function(e){
+    if(e.keyCode === 13)
+      sendText(e);
+  });
 }
 
 function sendText(e){
@@ -14,8 +18,12 @@ function sendText(e){
   console.log(this);
 
   var text = document.getElementById('chatbox').value;
-  var chat = document.createElement('div');
-  chat.innerHTML = text;
-  chat.className = 'chatText';
-  var container = document.getElementById('chatContainer');
+  if(text !== ''){
+    var chat = document.createElement('div');
+    chat.innerHTML = text;
+    chat.className = 'chatText';
+    var container = document.getElementById('chatContainer');
+    container.appendChild(chat);
+    document.getElementById('chatbox').value = '';
+  }
 }

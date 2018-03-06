@@ -11,11 +11,11 @@ $(document).ready(function() {
 function initializePage() {
 
 	// name listener
-	$("#list-item .dislike a").click(function(e) {
-    $(this).closest("section").hide();
+	$(".list-item .dislike").click(function(e) {
+    $(this).closest(".list-item").hide();
   });
 
-  $("#list-item .like a").click(like);
+  $(".list-item .like").click(like);
 }
 
 /* Global variables */
@@ -32,17 +32,5 @@ function like(e) {
 	console.log("likes = " + likes);
 
   // hide
-  $(this).closest("section").hide();
-}
-
-function changeFood(result) {
-	console.log(result);
-  var foodHTML = '<div class="container"><h3>' + result["ethnicity"] +
-	'</h3><h2>' + result["name"] + '</h2>'+ result["description"] +
-	result["icons"] + '</div>';
-
-	$(".swipe-area section").removeClass();
-	$(".swipe-area section").addClass(result["name"]);
-	$(".food-description").html(foodHTML);
-
+  $(this).closest(".list-item").hide();
 }

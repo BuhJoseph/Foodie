@@ -1,4 +1,5 @@
 'use strict';
+//var foods = require('../../food.json');
 
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
@@ -11,13 +12,17 @@ $(document).ready(function() {
 function initializePage() {
 
 	// name listener
-	$(".food-image a").click(swipe);
-  $(".food-image .right").click(like);
-  $(".food-image .like").click(like);
+	$(".food-background a").click(swipe);
+  $(".food-background .like").click(like);
 }
 
 /* Global variables */
-var likes;
+//var foods = require('../food.json');
+var likes = 0;
+var index = 1;
+
+var previousFood = null;
+
 
 function swipe(e) {
 
@@ -25,8 +30,19 @@ function swipe(e) {
   e.preventDefault();
   console.log("swipe");
 
-  // change the food on display
-	$.get("/food/random", changeFood);
+	previousFood = changeFood;
+	console.log("Change to food " + index);
+	$.get("/food/" + index, changeFood);
+
+	// POST
+	//$.post("likeFood", {}, postCallback)
+
+
+	// change the food on display
+	index++;
+	if(index > 9) {
+		index = 1;
+	}
 
 }
 
@@ -44,12 +60,11 @@ function like(e) {
 
 function changeFood(result) {
 	console.log(result);
-  var foodHTML = '<div class="container"><h3>' + result["ethnicity"] +
+  var descriptionHTML = '<h3>' + result["ethnicity"] +
 	'</h3><h2>' + result["name"] + '</h2>'+ result["description"] +
-	result["icons"] + '</div>';
+	result["icons"];
 
-	$(".swipe-area section").removeClass();
-	$(".swipe-area section").addClass(result["name"]);
-	$(".food-description").html(foodHTML);
+  $(".food-background").attr("style","background-image: url(" + result["imageURL"] + ")");
+	$(".food-description").html(descriptionHTML);
 
 }
