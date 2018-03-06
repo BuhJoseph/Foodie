@@ -3,10 +3,12 @@
 .top {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 20px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-bottom: solid 0.5px #979797;
 }
 
