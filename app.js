@@ -71,6 +71,9 @@ app.get('/help', help.view);
 app.get('/foodInfo/:name', foodInfo.view);
 app.post('/likeFood', profile.likeFood);
 
+// A/B Testing
+app.get('/viewAlt',index.viewAlt);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
