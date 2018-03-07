@@ -114,7 +114,7 @@
   },
   {
     "name": "Korean Fried Chicken",
-    "imageURL": "../images/food/KFC.jpg",
+    "imageURL": "../images/food/kfc.jpg",
     "ethnicity": "Korean",
     "description": "<p>Korean fried chicken or KFC refers to a variety of fried chicken dishes from South Korea, including the basic huraideu-chikin and spicy yangnyeom-chikin.<p>",
     "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"

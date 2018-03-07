@@ -5,72 +5,176 @@
       "name": "Burger",
       "imageURL": "../images/food/burger.png",
       "ethnicity": "American",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>A hamburger, beefburger or burger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     },
     {
       "name": "Sushi",
       "imageURL": "../images/food/sushi.jpg",
       "ethnicity": "Japanese",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>Sushi is a Japanese dish of specially prepared vinegared rice, usually with some sugar and salt, combined with a variety of ingredients, such as seafood.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     },
     {
       "name": "Tacos",
       "imageURL": "../images/food/tacos.jpeg",
       "ethnicity": "Mexican",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>A taco is a traditional Mexican dish composed of a corn or wheat tortilla folded or rolled around a filling<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     },
     {
       "name": "Ramen",
       "imageURL": "../images/food/ramen.jpg",
       "ethnicity": "Japanese",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>Ramen is a Japanese dish. It consists of Chinese-style wheat noodles served in a meat or fish-based broth.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     },
     {
       "name": "Orange Chicken",
       "imageURL": "../images/food/orangechicken.jpg",
       "ethnicity": "Chinese",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>Orange chicken is a Chinese dish of Hunan origin<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     },
     {
       "name": "Tamales",
       "imageURL": "../images/food/tamales.png",
       "ethnicity": "Mexican",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>A tamale is a traditional Mesoamerican dish made of masa or dough, which is steamed in a corn husk or banana leaf.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     },
     {
       "name": "Lomo Saltado",
       "imageURL": "../images/food/lomosaltado.jpg",
       "ethnicity": "Peruvian",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>Lomo saltado is a popular, traditional Peruvian dish, a stir fry that typically combines marinated strips of sirloin with onions, tomatoes, and fries.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     },
     {
       "name": "Lamb Tikka Masala",
       "imageURL": "../images/food/lambtikkamasala.jpg",
       "ethnicity": "Indian",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>Lamb tikka masala is a dish of chunks of roasted marinated lamb in a spiced curry sauce. The sauce is usually creamy and orange-coloured.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     },
     {
       "name": "Bibimbap",
       "imageURL": "../images/food/bibimbap.jpg",
       "ethnicity": "Korean",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>Bibimbap is served as a bowl of warm white rice topped with namul and gochujang, soy sauce, or doenjang.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     },
     {
       "name": "Steak",
       "imageURL": "../images/food/steak.jpg",
       "ethnicity": "American",
-      "description": "<p>Description of Food<p>",
-      "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
+      "description": "<p>A steak is a meat generally sliced across the muscle fibers, potentially including a bone.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Adobo",
+      "imageURL": "../images/food/adobo.jpg",
+      "ethnicity": "Filipino",
+      "description": "<p>Immersion of raw food in a stock composed variously of paprika, oregano, salt, garlic, soy sauce and vinegar to preserve and enhance its flavor. <p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Beef Stew",
+      "imageURL": "../images/food/beefstew.jpg",
+      "ethnicity": "French",
+      "description": "<p>A stew is a combination of solid food ingredients that have been cooked in liquid and served in the resultant gravy.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Calamari",
+      "imageURL": "../images/food/calamari.jpg",
+      "ethnicity": "Italian",
+      "description": "<p>Calamari is made out of squid. In Italy, squid translates directly as calamari, which is how the popular appetizer gets its name.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Dumplings",
+      "imageURL": "../images/food/dumplings.jpg",
+      "ethnicity": "Chinese",
+      "description": "<p>The dough can be based on bread, flour, or potatoes, and may be filled with meat, fish, cheese, vegetables, fruits, or sweets.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Fried Rice",
+      "imageURL": "../images/food/friedrice.jpg",
+      "ethnicity": "Chinese",
+      "description": "<p>A dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Chicken Karaage",
+      "imageURL": "../images/food/karaage.jpg",
+      "ethnicity": "Japanese",
+      "description": "<p>Karaage, is a Japanese cooking technique in which various foods — most often chicken, but also other meat and fish — are deep fried in oil.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Korean Fried Chicken",
+      "imageURL": "../images/food/kfc.jpg",
+      "ethnicity": "Korean",
+      "description": "<p>Korean fried chicken or KFC refers to a variety of fried chicken dishes from South Korea, including the basic huraideu-chikin and spicy yangnyeom-chikin.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Lumpia",
+      "imageURL": "../images/food/lumpia.jpg",
+      "ethnicity": "Filipino",
+      "description": "<p>Lumpia is a spring roll of Chinese origin commonly found in Indonesia and the Philippines.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Mapo Tofu",
+      "imageURL": "../images/food/mapotofu.jpg",
+      "ethnicity": "Chinese",
+      "description": "<p>Consists of tofu set in a spicy sauce, typically a thin, oily, and bright red suspension, based on douban 豆瓣 and douchi 豆豉, along with minced meat.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Peking Roasted Duck",
+      "imageURL": "../images/food/pekingroastedduck.jpg",
+      "ethnicity": "Chinese",
+      "description": "<p>Peking duck is a dish from Beijing that has been prepared since the imperial era - characterized by its thin, crisp skin. <p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Pho",
+      "imageURL": "../images/food/pho.jpg",
+      "ethnicity": "Vietnamese",
+      "description": "<p>Phở or pho is a Vietnamese soup consisting of broth, rice noodles called bánh phở, a few herbs, and meat, primarily made with either beef or chicken.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Risotto",
+      "imageURL": "../images/food/risotto.jpg",
+      "ethnicity": "Italian",
+      "description": "<p>Risotto is a northern Italian rice dish cooked in a broth to a creamy consistency. The broth can be derived from meat, fish, or vegetables. <p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Shumai",
+      "imageURL": "../images/food/shumai.jpg",
+      "ethnicity": "Chinese",
+      "description": "<p>Shaomai is a type of traditional Chinese dumpling, originating from Hohhot, Inner Mongolia.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Spring Rolls",
+      "imageURL": "../images/food/springrolls.jpg",
+      "ethnicity": "Vietnamese",
+      "description": "<p>Gỏi cuốn, Vietnamese spring roll, is a Vietnamese dish traditionally consisting of pork, prawn, vegetables, bún, and other ingredients wrapped in Vietnamese bánh tráng.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Tempura",
+      "imageURL": "../images/food/tempura.jpeg",
+      "ethnicity": "Japanese",
+      "description": "<p>Tempura is a classical Portuguese dish brought to and popularized by Japan, consisting of seafood or vegetables that have been battered and deep fried.<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     }
-
   ]
 }

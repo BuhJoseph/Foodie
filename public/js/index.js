@@ -57,6 +57,9 @@ function like(e) {
 	// Prevent following the link
   e.preventDefault();
 
+	// Google Analytics event
+  gtag("send", "event", "like", "click");
+
 	// increment likes
 	likes = parseInt($(".like-counter").text());
   $(".like-counter").text(++likes);
