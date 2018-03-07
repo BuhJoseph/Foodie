@@ -21,27 +21,30 @@ function initializePage() {
 /* Global variables */
 var likes;
 var likedFood = null;
+var foodName = null;
+var imageURL = null;
 
 function like(e) {
 
-	// Google Analytics event
-  gtag("send", "event", "like", "click");
-
 	// Prevent following the link
   e.preventDefault();
+
+	// Google Analytics event
+  gtag("send", "event", "like", "click");
 
 	// increment likes
 	likes = parseInt($(".like-counter").text());
   $(".like-counter").text(++likes);
 	console.log("likes = " + likes);
 
-  var imageURL = $(this).closest(".food-background").css("background-image")
+  foodName = $(this).closest("#name").text();
+  imageURL = $(this).closest(".food-background").css("background-image")
 	imageURL = imageURL.slice(26,imageURL.length-2);
 	imageURL = ".." + imageURL;
 	console.log(imageURL);
 
   likedFood = {
-		"name" : "test",
+		"name" : foodName,
 		"imageURL" : imageURL
 	};
 
@@ -53,5 +56,6 @@ function like(e) {
 	};
 
   // hide
+	console.log($(this).closest(".list-item"));
   $(this).closest(".list-item").hide();
 }

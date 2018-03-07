@@ -54,11 +54,11 @@ function updatePage(e) {
 
 function like(e) {
 
-  // Google Analytics event
-  gtag("send", "event", "like", "click");
-  
 	// Prevent following the link
   e.preventDefault();
+
+	// Google Analytics event
+  gtag("send", "event", "like", "click");
 
 	// increment likes
 	likes = parseInt($(".like-counter").text());
