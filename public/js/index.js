@@ -46,7 +46,7 @@ function updatePage(e) {
 
 	// change the food on display
 	index++;
-	if(index > 9) {
+	if(index > 25) {
 		index = 1;
 	}
 
@@ -77,7 +77,7 @@ function changeFood(result) {
 	$(".food-description").html(descriptionHTML);
 
 	// POST
-	$.post("likeFood", {likedFood: result}, postCallback)
+	$.post("likeFood", {likedFood: result}, postCallback) //HERE
 
 	function postCallback(res) {
 		console.log("pushed " + res.name + " to profile");

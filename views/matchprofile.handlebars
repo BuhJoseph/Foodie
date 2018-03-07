@@ -7,8 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/matchprofile.css">
     <link rel="shortcut icon" href="./images/icons/chef.png">
 
-    <script type="text/javascript">
-    </script>
+    <script type="text/javascript" src="C:\Users\josep_000\Desktop\CSE170\Foodie\match2.json"></script>
   </head>
   <body>
     
@@ -24,9 +23,9 @@
           </a>
         </div>
       </div>
-      <div class="profile-img" style="background-image:url({{imageURL}});"></div>
-      <h2 class="name">{{name}}</h2>
-      <p class="description">Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.</p>
+      <div class="profile-img" id="profile" style="background-image:url({{imageURL}});"></div>
+      <h2 class="name" id="name">{{name}}</h2>
+      <p class="description" id="description">Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.</p>
 
       <!-- Matched Food Section -->
       <div class="food">
@@ -64,7 +63,6 @@
   <script src="https://code.jquery.com/jquery.js"></script>
   <!-- Include all compiled plugins (blelow), or include individual files as needed -->
   <script src="/js/bootstrap.js"></script>
-  <script src="/js/main.js"></script>
   <script src="/js/matchprofile.js"></script>
   <script type="text/javascript">
     window.onload = function () {
