@@ -57,6 +57,9 @@ function like(e) {
 	// Prevent following the link
   e.preventDefault();
 
+	// Google Analytics event
+  gtag("send", "event", "like", "click");
+
 	// increment likes
 	likes = parseInt($(".like-counter").text());
   $(".like-counter").text(++likes);
@@ -74,7 +77,7 @@ function changeFood(result) {
 	$(".food-description").html(descriptionHTML);
 
 	// POST
-	$.post("likeFood", {likedFood: result}, postCallback)
+	$.post("likeFood", {likedFood: result}, postCallback) //HERE
 
 	function postCallback(res) {
 		console.log("pushed " + res.name + " to profile");
