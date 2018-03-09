@@ -175,6 +175,111 @@
       "ethnicity": "Japanese",
       "description": "<p>Tempura is a classical Portuguese dish brought to and popularized by Japan, consisting of seafood or vegetables that have been battered and deep fried.<p>",
       "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Fettuccine Alfredo",
+      "imageURL": "../images/food/alfredo.jpeg",
+      "ethnicity": "Italian",
+      "description": "<p>Creamy Alfredo<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Spaghetti",
+      "imageURL": "../images/food/spaghetti.jpg",
+      "ethnicity": "Italian",
+      "description": "<p>Saucy spaghetti and meatballs<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "BBQ Ribs",
+      "imageURL": "../images/food/ribs.jpg",
+      "ethnicity": "American",
+      "description": "<p>Juicy ribs<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Loaded Fries",
+      "imageURL": "../images/food/loadedfries.jpg",
+      "ethnicity": "Mexican",
+      "description": "<p>Fries to die for<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Fried Chicken",
+      "imageURL": "../images/food/friedchicken.jpg",
+      "ethnicity": "American",
+      "description": "<p>Crispy fried chicken<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Buffalo Wings",
+      "imageURL": "../images/food/wings.png",
+      "ethnicity": "American",
+      "description": "<p>Description of food<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Cheesecake",
+      "imageURL": "../images/food/cheesecake.jpeg",
+      "ethnicity": "American",
+      "description": "<p>Creamy Cheesecake</p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Omelette",
+      "imageURL": "../images/food/omelette.jpg",
+      "ethnicity": "American",
+      "description": "<p>Great breakfast<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Lobster",
+      "imageURL": "../images/food/lobster.jpg",
+      "ethnicity": "American",
+      "description": "<p>Tasty<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Onion Rings",
+      "imageURL": "../images/food/onionrings.jpg",
+      "ethnicity": "American",
+      "description": "<p>Onions<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Baked Potato",
+      "imageURL": "../images/food/bakedpotato.jpeg",
+      "ethnicity": "American",
+      "description": "<p>Baked goodness<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Macaroni and Cheese",
+      "imageURL": "../images/food/mac.png",
+      "ethnicity": "Italian",
+      "description": "<p>Cheesy<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Pizza",
+      "imageURL": "../images/food/pizza.jpg",
+      "ethnicity": "Italian",
+      "description": "<p>Pizza<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Salad",
+      "imageURL": "../images/food/salad.jpg",
+      "ethnicity": "American",
+      "description": "<p>Fresh salad<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
+    },
+    {
+      "name": "Pancake",
+      "imageURL": "../images/food/pancake.jpg",
+      "ethnicity": "American",
+      "description": "<p>Stackem high<p>",
+      "icons": "<ul class='nav'><li><img src='/images/icons/timer1.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li id='cart'><img src='/images/icons/cart1.svg' width='40'><h6>$8-$10</h6></li></ul>"
     }
   ]
 }

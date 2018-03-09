@@ -46,7 +46,7 @@ function updatePage(e) {
 
 	// change the food on display
 	index++;
-	if(index > 25) {
+	if(index > 40) {
 		index = 1;
 	}
 
