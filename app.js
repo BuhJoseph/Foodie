@@ -66,7 +66,7 @@ app.get('/register3', register3.view);
 app.get('/food/:id', food.foodInfo);
 app.get('/reset', reset.view);
 app.get('/matchprofile/:name', matchprofile.view); //NOTE: do '/matchprofile/:id' next time
-app.get('/likedfood', likedfood.view);
+app.get('/likedfood', profile.viewLikedFood);
 app.get('/help', help.view);
 app.get('/foodInfo/:name', foodInfo.view);
 app.post('/likeFood', profile.likeFood);

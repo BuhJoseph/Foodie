@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
+
 }
 
 html {
@@ -73,29 +73,5 @@ a:hover {
 	margin-right: 10px;
 	height: 170px;
 	background-position: center;
-	background-size: 250px;
+	background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
