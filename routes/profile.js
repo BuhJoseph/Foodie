@@ -7,7 +7,11 @@ var data = {
  */
 
 exports.view = function(req, res){
-  res.render('profile', data);
+  res.render('profile');
+};
+
+exports.viewLikedFood = function(req, res){
+  res.render('likedfood', data);
 };
 
 exports.likeFood = function(req, res) {

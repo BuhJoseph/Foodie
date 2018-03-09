@@ -1,5 +1,5 @@
 /*
- * GET home page.
+ * Get Login page
  */
 
 exports.view = function(req, res){

@@ -11,46 +11,17 @@ $(document).ready(function() {
  */
 function initializePage() {
 
-	updatePage;
-
 	// name listener
-	$(".food-background a").click(updatePage);
-  $(".food-background .like").click(like);
+	$(".food-background .like").click(like);
+	$(".food-background .dislike").click(dislike);
+
+  dislike();
 }
 
 /* Global variables */
 //var foods = require('../food.json');
 var likes = 0;
-var index = 1;
-
-//var likedFood = null;
-
-function updatePage(e) {
-
-	// Prevent following the link
-  e.preventDefault();
-  console.log("update page");
-
-  /*
-	likedFood = {
-    "name": "Sushi",
-    "imageURL": "../images/food/sushi.jpg",
-    "ethnicity": "Japanese",
-    "description": "<p>Description of Food<p>",
-    "icons": "<ul class='nav'><li><img src='/images/icons/timer.svg' width='40'><h6>20 Minutes</h6></li><li><img src='/images/icons/chef.png' width='40'><h6>Beginner</h6></li><li><img src='/images/icons/cart.svg' width='40'><h6>$8-$10</h6></li></ul>"
-  };
-	*/
-
-	console.log("Change to food " + index);
-	$.get("/food/" + index, changeFood);
-
-	// change the food on display
-	index++;
-	if(index > 40) {
-		index = 1;
-	}
-
-}
+var index = 0;
 
 function like(e) {
 
@@ -60,6 +31,18 @@ function like(e) {
 	// Google Analytics event
   gtag("send", "event", "like", "click");
 
+  // push liked food to profile
+  $.get("/food/" + index, pushFood);
+
+	// increment index to next food
+	index++;
+	if(index > 40) {
+		index = 1;
+	}
+
+	console.log("Change to food " + index);
+	$.get("/food/" + index, updateFood);
+
 	// increment likes
 	likes = parseInt($(".like-counter").text());
   $(".like-counter").text(++likes);
@@ -67,7 +50,22 @@ function like(e) {
 
 }
 
-function changeFood(result) {
+function dislike(e) {
+
+	// Prevent following the link
+  // e.preventDefault();
+
+	// increment index to next food
+	index++;
+	if(index > 40) {
+		index = 1;
+	}
+
+	console.log("Change to food " + index);
+	$.get("/food/" + index, updateFood);
+}
+
+function updateFood(result) {
 	console.log(result);
   var descriptionHTML = '<h3>' + result["ethnicity"] +
 	'</h3><h2>' + result["name"] + '</h2>'+ result["description"] +
@@ -75,7 +73,9 @@ function changeFood(result) {
 
   $(".food-background").attr("style","background-image: url(" + result["imageURL"] + ")");
 	$(".food-description").html(descriptionHTML);
+}
 
+function pushFood(result) {
 	// POST
 	$.post("likeFood", {likedFood: result}, postCallback) //HERE
 
