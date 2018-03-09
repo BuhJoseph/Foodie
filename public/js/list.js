@@ -20,7 +20,7 @@ function initializePage() {
 
 /* Global variables */
 var likes;
-var likedFood = null;
+var food = null;
 var foodName = null;
 var imageURL = null;
 
@@ -37,25 +37,24 @@ function like(e) {
   $(".like-counter").text(++likes);
 	console.log("likes = " + likes);
 
-  foodName = $(this).closest("#name").text();
-  imageURL = $(this).closest(".food-background").css("background-image")
-	imageURL = imageURL.slice(26,imageURL.length-2);
+  foodName = $(this).closest("span#name").text();
+  imageURL = $(this).closest(".food-background").css("background-image");
+	imageURL = imageURL.slice(imageURL.indexOf("images")-1,imageURL.length-2);
 	imageURL = ".." + imageURL;
-	console.log(imageURL);
+	console.log("imageURL is " + imageURL);
 
-  likedFood = {
+  food = {
 		"name" : foodName,
 		"imageURL" : imageURL
 	};
 
 	// POST
-	$.post("likeFood", {likedFood: likedFood}, postCallback)
+	$.post("likeFood", {likedFood: food}, postCallback);
 
 	function postCallback(res) {
 		console.log("pushed " + res.name + " to profile");
 	};
 
   // hide
-	console.log($(this).closest(".list-item"));
   $(this).closest(".list-item").hide();
 }
