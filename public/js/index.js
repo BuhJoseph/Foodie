@@ -77,7 +77,7 @@ function updateFood(result) {
 
 function pushFood(result) {
 	// POST
-	$.post("likeFood", {likedFood: result}, postCallback) //HERE
+	$.post("likeFood", {likedFood: result}, postCallback); //HERE
 
 	function postCallback(res) {
 		console.log("pushed " + res.name + " to profile");

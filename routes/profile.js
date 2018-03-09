@@ -16,7 +16,6 @@ exports.viewLikedFood = function(req, res){
 
 exports.likeFood = function(req, res) {
   var likedFood = req.body.likedFood;
-  console.log("Pushed food to profile " + likedFood.name);
   data.likes.push(likedFood);
   res.send(likedFood);
 };
