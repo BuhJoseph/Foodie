@@ -89,11 +89,16 @@
 
 .mode-selector a {
   text-decoration: none;
+  color: #5B5B5B;
 }
 
 .selected {
   font-weight: bold;
-  border-bottom: #AFC4C5 3px solid;
+  border-bottom: #118488 3px solid;
+}
+
+#notselected {
+	color: #ADADAD;
 }
 
 /* Food List */
