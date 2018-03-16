@@ -63,13 +63,5 @@
       "percent": "90",
       "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
       "distance": "0.8"
-    },
-    {
-      "backgroundURL": "../images/food/donburi.jpeg",
-      "imageURL": "../images/matches/don.jpg",
-      "name": "Donburi Norman",
-      "percent": "90",
-      "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
-      "distance": "0.8"
     }
   ]}
