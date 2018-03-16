@@ -45,7 +45,7 @@
       "imageURL": "../images/matches/elon.jpg",
       "name": "Udon Musk",
       "percent": "90",
-      "description": "South African-born Canadian American business magnate, investor, and engineer. I am the founder, CEO, and lead designer of SpaceX; co-founder, CEO, and product architect of Tesla, Inc.; and co-founder and CEO of Neuralink.",
+      "description": "South African-born Canadian American business magnate, investor, and engineer. I am the founder, CEO, and lead designer of SpaceX",
       "distance": "0.8"
     },
     {
@@ -53,7 +53,7 @@
       "imageURL": "../images/matches/jeff.jpg",
       "name": "Jeff Basil",
       "percent": "90",
-      "description": "American technology entrepreneur, investor, and philanthropist, best known as the founder, chairman, and chief executive officer of Amazon, the world's largest online shopping retailer.",
+      "description": "American technology entrepreneur, investor, and philanthropist, best known as the founder, chairman, and chief executive officer of Amazon",
       "distance": "0.8"
     },
     {
