@@ -14,6 +14,10 @@ exports.viewLikedFood = function(req, res){
   res.render('likedfood', data);
 };
 
+exports.viewMatchedFood = function(req, res){
+  res.render('matchedFood', data);
+};
+
 exports.likeFood = function(req, res) {
   var likedFood = req.body.likedFood;
   data.likes.push(likedFood);

@@ -75,3 +75,10 @@ a:hover {
 	background-position: center;
 	background-size: cover;
 }
+
+.remove-btn {
+	width: 30px;
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
