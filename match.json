@@ -5,7 +5,7 @@
       "imageURL": "../images/matches/mark.jpg",
       "name": "Mark Zuckerberg",
       "percent": "90",
-      "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
+      "description": "Computer programmer and Internet entrepreneur. I am a co-founder of Facebook, and currently operates as its chairman and chief executive officer.",
       "distance": "0.8"
     },
     {
@@ -13,7 +13,7 @@
       "imageURL": "../images/matches/godfrey.jpg",
       "name": "Godfrey Gao",
       "percent": "90",
-      "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
+      "description": "Taiwanese-born Canadian model and actor. I am the first Asian model to be signed on by luxury brand Louis Vuitton, earning the dub 'world's first Asian supermodel'",
       "distance": "0.8"
     },
     {
@@ -21,7 +21,7 @@
       "imageURL": "../images/matches/chloe.jpg",
       "name": "Chloe Kim",
       "percent": "90",
-      "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
+      "description": "American snowboarder. I am the youngest woman to win an Olympic snowboarding medal after winning gold in the women’s snowboard halfpipe",
       "distance": "0.8"
     },
     {
@@ -29,7 +29,7 @@
       "imageURL": "../images/matches/khosla.jpg",
       "name": "Pradeep Coleslaw",
       "percent": "90",
-      "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
+      "description": "I am an internationally renowned electrical and computer engineer, the eighth Chancellor of the University of California, San Diego, and a Distinguished Professor",
       "distance": "0.8"
     },
     {
@@ -37,7 +37,7 @@
       "imageURL": "../images/matches/michelle.jpg",
       "name": "Michelle Obama",
       "percent": "90",
-      "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
+      "description": "Role model for women, an advocate for poverty awareness, education, nutrition, physical activity and healthy eating, and a fashion icon",
       "distance": "0.8"
     },
     {
@@ -45,7 +45,7 @@
       "imageURL": "../images/matches/elon.jpg",
       "name": "Udon Musk",
       "percent": "90",
-      "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
+      "description": "South African-born Canadian American business magnate, investor, and engineer. I am the founder, CEO, and lead designer of SpaceX; co-founder, CEO, and product architect of Tesla, Inc.; and co-founder and CEO of Neuralink.",
       "distance": "0.8"
     },
     {
@@ -53,7 +53,7 @@
       "imageURL": "../images/matches/jeff.jpg",
       "name": "Jeff Basil",
       "percent": "90",
-      "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
+      "description": "American technology entrepreneur, investor, and philanthropist, best known as the founder, chairman, and chief executive officer of Amazon, the world's largest online shopping retailer.",
       "distance": "0.8"
     },
     {
@@ -61,7 +61,7 @@
       "imageURL": "../images/matches/steph.jpg",
       "name": "Steph Curry",
       "percent": "90",
-      "description": "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.",
+      "description": "American professional basketball player for the Golden State Warriors of the NBA",
       "distance": "0.8"
     }
   ]}
