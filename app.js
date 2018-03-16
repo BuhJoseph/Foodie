@@ -27,6 +27,7 @@ var matchprofile = require('./routes/matchprofile');
 var likedfood = require('./routes/likedfood');
 var help = require('./routes/help');
 var foodInfo = require('./routes/foodInfo');
+var matchedFood = require('./routes/matchedFood')
 
 var app = express();
 
@@ -69,6 +70,8 @@ app.get('/matchprofile/:name', matchprofile.view); //NOTE: do '/matchprofile/:id
 app.get('/likedfood', profile.viewLikedFood);
 app.get('/help', help.view);
 app.get('/foodInfo/:name', foodInfo.view);
+app.get('/matchedFood', profile.viewMatchedFood);
+
 app.post('/likeFood', profile.likeFood);
 
 
