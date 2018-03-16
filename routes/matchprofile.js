@@ -32,11 +32,11 @@ exports.view = function(req, res){
   } else if (name == "Udon Musk") {
     profile = "../images/matches/elon.jpg";
     background = "../images/food/udon.jpg";
-    description = "South African-born Canadian American business magnate, investor, and engineer. I am the founder, CEO, and lead designer of SpaceX; co-founder, CEO, and product architect of Tesla, Inc.; and co-founder and CEO of Neuralink.";
+    description = "South African-born Canadian American business magnate, investor, and engineer. I am the founder, CEO, and lead designer of SpaceX";
   } else if (name == "Jeff Basil") {
     profile = "../images/matches/jeff.jpg";
     background = "../images/food/basil.jpg";
-    description = "American technology entrepreneur, investor, and philanthropist, best known as the founder, chairman, and chief executive officer of Amazon, the world's largest online shopping retailer.";
+    description = "American technology entrepreneur, investor, and philanthropist, best known as the founder, chairman, and chief executive officer of Amazon";
   } else {
     profile = "../images/matches/steph.jpg";
     background = "../images/food/lambtikkamasala.jpg";
