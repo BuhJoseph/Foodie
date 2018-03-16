@@ -37,15 +37,15 @@ exports.view = function(req, res){
     profile = "../images/matches/jeff.jpg";
     background = "../images/food/basil.jpg";
     description = "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.";
-  } else if (name == "Steph Curry") {
+  } else {
     profile = "../images/matches/steph.jpg";
     background = "../images/food/lambtikkamasala.jpg";
     description = "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.";
-  } else {
+  } /*else {
     profile = "../images/matches/don.jpg";
     background = "../images/food/donburi.jpeg";
     description = "Description of person. He likes to eat sushi and chicken. He has been trying to cook but sometimes fails. Would love to cook with an experienced cook.";
-  }
+  }*/
 
   res.render('matchprofile', {
       "backgroundURL": background,
